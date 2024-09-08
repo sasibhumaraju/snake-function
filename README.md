@@ -46,4 +46,3 @@ console.log(snakeFunction(123));
 
 - [@sasibhumaraju](https://www.github.com/sasibhumaraju)
 
-Certainly! Here is the content formatted for a `README.md` file:
