@@ -1,0 +1,15 @@
+{
+  "name": "snake-function",
+  "version": "1.5.2",
+  "description": "snake functions",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "snake function greetings"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@sasibhumaraju",
+  "license": "ISC"
+}
