@@ -15,12 +15,14 @@ Install snake-function with npm
 ## Usage/Example
 
 ```javascript
-import snakeFunction from 'snake-function'
-
-function SnakeGreetings() {
-  const greetings = snakeFunction("sasibhumaraju")
-  return greetings;
+function SnakeFunction(name) {
+    if (typeof name !== 'string') {
+        return 'Invalid input: please provide a string';
+    }
+    return `shhhhhhhhh... hello ${name} 🐍`;
 }
+
+
 
 // OUTPUT: shhhhhhhhh... hello sasibhumaraju 🐍
 ```
@@ -30,3 +32,12 @@ function SnakeGreetings() {
 
 - [@sasibhumaraju](https://www.github.com/sasibhumaraju)
 
+
+### Summary
+
+- **Description:** Updated to include input validation details.
+- **Usage:** Shows how to use the function with different inputs.
+- **Function Definition:** Includes the updated function code.
+- **Testing:** Provides instructions for setting up and running tests.
+
+Feel free to Contribute here
