@@ -25,6 +25,22 @@ function SnakeGreetings() {
 // OUTPUT: shhhhhhhhh... hello sasibhumaraju 🐍
 ```
 
+### Input Validation
+
+The `snakeFunction` now includes input validation. If a non-string value (e.g., number, object, array) is passed, it will return an error message.
+
+```javascript
+import snakeFunction from 'snake-function';
+
+// Valid input
+console.log(snakeFunction("sasibhumaraju")); 
+// OUTPUT: shhhhhhhhh... hello sasibhumaraju 🐍
+
+// Invalid input
+console.log(snakeFunction(123)); 
+// OUTPUT: Invalid input: please provide a string
+```
+
 
 ## Author
 
